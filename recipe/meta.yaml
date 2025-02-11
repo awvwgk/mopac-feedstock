@@ -1,5 +1,5 @@
 {% set name = "mopac" %}
-{% set version = "23.1.0" %}
+{% set version = "23.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/openmopac/mopac/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: b4c3959c36706ae06601819c5e057a261f2265d196986dd0c38ab63990dd17cd
+  sha256: cee7ed5b88743ee3501362d7163ad681bb57fc3c9ed2f450133c6d56554b2e41
 
 build:
   number: 0
@@ -22,7 +22,6 @@ requirements:
     - {{ compiler('m2w64_fortran') }}  # [win]
     - cmake
     - ninja
-    - python
     - libgomp  # [linux]
     - llvm-openmp  # [osx]
   host:
