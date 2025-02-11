@@ -22,7 +22,6 @@ requirements:
     - {{ compiler('m2w64_fortran') }}  # [win]
     - cmake
     - ninja
-    - numpy
     - libgomp  # [linux]
     - llvm-openmp  # [osx]
   host:
