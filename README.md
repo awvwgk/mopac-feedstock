@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mopac-feedstock
 
 Home: http://openmopac.net
 
-Package license: LGPL-3.0-or-later
+Package license: Apache-2.0
 
 Summary: The modern open-source version of the Molecular Orbital PACkage (MOPAC)
 
